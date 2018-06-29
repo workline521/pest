@@ -1,0 +1,41 @@
+mixin header(data)
+    header.header
+        .header__logo
+        .header__btn
+            .header__line1
+            .header__line2
+            .header__line3
+        .header__contacts
+            .header__column-left
+                a.header__link(href="#")
+                    |  Москва:
+                    span.header__link-code  +7 (499)
+                    span.header__phone  505-50-03
+                a.header__link(href="#")
+                    |  Регионы РФ:
+                    span.header__phone  8 800 3335 911
+            .header__column-right
+                a.header__call(href="#") Заказать звонок
+                |   или
+                a.header__message(href="#")  написать нам
+            form.header__form(action="#", method="get")
+                input.header__input(type="search", name="search", placeholder="Поиск среди 35 000 товаров")
+                button.header__submit(type="submit")
+        .header__autorisation
+            .header__login-wrapper
+                a.header__login(href="#") Войти
+                |  &nbsp;или&nbsp;
+                a.header__reg(href="#") зарегистрироваться
+            .header__cart-wrapper
+                a.header__cart(href="#") Корзина
+                p.header__sum
+                    span.header__number 1400
+                    |  руб.
+                p.header__delivery Доставка: с 09:00 до 19:00 (МСК)
+        nav.header__nav
+            a.header__nav-link.header__nav-link--submenu(href="#") По вредителям
+            a.header__nav-link.header__nav-link--submenu(href="#") По виду продукции
+            a.header__nav-link.header__nav-link--submenu(href="#") По брендам
+            a.header__nav-link.header__nav-link--submenu(href="#") Аксессуары
+            a.header__nav-link(href="#") Акции
+            a.header__nav-link(href="#") База знаний

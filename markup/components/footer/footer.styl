@@ -1,0 +1,232 @@
+.footer
+    display block
+    width 100%
+    background #82c044
+    padding-top 26px
+    padding-bottom 30px
+    @media (max-width: 767px)
+        padding-top 16px
+    &__top
+        display -webkit-flex
+        display -moz-flex
+        display -ms-flex
+        display -o-flex
+        display flex
+        flex-wrap wrap
+        align-items flex-start
+        justify-content flex-start
+        @media (max-width: 990px)
+            justify-content space-between
+    &__column1
+        display block
+        width 25%
+        @media (max-width: 1300px)
+            width 30%
+        @media (max-width: 1024px)
+            width 25%
+        @media (max-width: 990px)
+            width 50%
+            padding-right 15px
+        @media (max-width: 580px)
+            width 100%
+    &__title
+        display block
+        color #ffffff
+        font-size 18px
+        font-weight 700
+        padding-bottom 14px
+    &__link-wrapper
+        display block
+        width 100%
+        margin-bottom 1px
+    &__link
+        color #000000
+        font-size 14px
+        font-weight 400
+        line-height 20px
+        position relative
+        transition color 0.4s ease-out
+        &:after
+            position absolute
+            content ''
+            left 0
+            bottom 0
+            width 100%
+            height 1px
+            background #000000
+            transition background 0.4s ease-out
+        &:hover
+            color #ffffff
+        &:hover:after
+            background #ffffff
+    &__column2
+        display block
+        width 25%
+        padding-left 40px
+        @media (max-width: 1300px)
+            width 22%
+        @media (max-width: 1100px)
+            padding-right 10px
+        @media (max-width: 1024px)
+            padding-left 0
+            padding-right 0
+        @media (max-width: 990px)
+            width 50%
+        @media (max-width: 580px)
+            width 100%
+            margin-top 12px
+    &__column3
+        display block
+        width 22.3%
+        max-width 215px
+        @media (max-width: 990px)
+            width 215px
+            margin-top 24px
+    &__payment
+        display -webkit-flex
+        display -moz-flex
+        display -ms-flex
+        display -o-flex
+        display flex
+        flex-wrap wrap
+        align-items flex-start
+        justify-content flex-start
+    &__item
+        display block
+        width 68px
+        height 42px
+        margin-right 5px
+        margin-bottom 5px
+        border-radius 3px
+        overflow hidden
+        &:nth-child(3n)
+            margin-right 0
+    &__column4
+        display block
+        width 25%
+        margin-left auto
+        @media (max-width: 1024px)
+            width 27.7%
+            padding-left 28px
+        @media (max-width: 990px)
+            width 50%
+            padding-left 0
+            margin-top 25px
+        @media (max-width: 580px)
+            width 100%
+    &__delivery-link
+        display block
+        width 145px
+        height 28px
+        border-radius 3px
+        overflow hidden
+        margin-bottom 3px
+    &__delivery-link--1
+        background url('../img/general/logistics-sprite.jpg') no-repeat top center
+    &__delivery-link--2
+        background url('../img/general/logistics-sprite.jpg') no-repeat center
+    &__delivery-link--3
+        background url('../img/general/logistics-sprite.jpg') no-repeat bottom center
+    &__bottom
+        display -webkit-flex
+        display -moz-flex
+        display -ms-flex
+        display -o-flex
+        display flex
+        flex-wrap wrap
+        justify-content flex-start
+        align-items flex-end
+        margin-top 23px
+        @media (max-width: 990px)
+            margin-top 29px
+    &__year
+        display block
+        width 25%
+        color #ffffff
+        text-transform uppercase
+        line-height 14px
+        @media (max-width: 1300px)
+            width 30%
+        @media (max-width: 1024px)
+            width 25%
+        @media (max-width: 990px)
+            width 33.33%
+        @media (max-width: 767px)
+            order 3
+            width 100%
+            text-align center
+            margin-top 30px
+        @media (max-width: 580px)
+            margin-top 18px
+            text-align left
+    &__social-wrapper
+        display flex
+        flex-wrap wrap
+        align-items flex-start
+        justify-content flex-start
+        width 25%
+        padding-left 40px
+        @media (max-width: 1300px)
+            width 45%
+        @media (max-width: 1024px)
+            padding-left 0
+            width 25%
+        @media (max-width: 990px)
+            width 33.33%
+        @media (max-width: 767px)
+            order 1
+            width 50%
+        @media (max-width: 580px)
+            width 100%
+    &__social
+        display block
+        width 23px
+        height 23px
+        margin-right 15px
+        &:last-child
+            margin-right 0
+    &__social--1
+        background url('../img/general/social-icons.png') no-repeat 0 0
+    &__social--2
+        background url('../img/general/social-icons.png') no-repeat -38px 0
+    &__social--3
+        background url('../img/general/social-icons.png') no-repeat -77px 0
+    &__social--4
+        background url('../img/general/social-icons.png') no-repeat -115px 0
+    &__copyright
+        display flex
+        align-items flex-start
+        justify-content flex-end
+        width 50%
+        color #ffffff
+        line-height 14px
+        @media (max-width: 1300px)
+            width 25%
+        @media (max-width: 1024px)
+            width 50%
+        @media (max-width: 990px)
+            width 33.33%
+        @media (max-width: 767px)
+            order 2
+            width 50%
+            justify-content flex-start
+        @media (max-width: 580px)
+            width 100%
+            margin-top 15px
+    &__picom-link
+        color #303030
+        position relative
+        transition color 0.4s ease-out
+        &:after
+            position absolute
+            content ''
+            left 0
+            bottom 0
+            width 100%
+            height 1px
+            background #303030
+            transition background 0.4s ease-out
+        &:hover
+            color #ffffff
+        &:hover:after
+            background #ffffff
